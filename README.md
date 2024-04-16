@@ -188,9 +188,24 @@ endmodule
 # OUTPUT:
 
 # LOGIC GATES:
-![image](https://github.com/Pavithra-040404/VLSI-LAB-EXP-1/assets/161431611/3886dbdd-c408-47d4-a5d3-0eb51f7c4830
+![image](https://github.com/Pavithra-040404/VLSI-LAB-EXP-1/assets/161431611/b15fbb00-f0d7-42ce-83a3-efd5c3274f0a)
 
+# HALF ADDER:
+![image](https://github.com/Pavithra-040404/VLSI-LAB-EXP-1/assets/161431611/19f2c9d1-b994-4f52-9e84-8520b313a4cf)
+
+# FULL ADDER:
+![image](https://github.com/Pavithra-040404/VLSI-LAB-EXP-1/assets/161431611/07a86c20-0b88-4442-8026-de3e5c648748)
+
+# HALF SUBTRACTOR:
+![image](https://github.com/Pavithra-040404/VLSI-LAB-EXP-1/assets/161431611/850631eb-a511-401a-a9e0-e6b92d4d3901)
+
+# FULL SUBTRACTOR:
+![image](https://github.com/Pavithra-040404/VLSI-LAB-EXP-1/assets/161431611/5fe639cf-8468-44fe-8c23-565fed1e9efb)
+
+# 8 BIT RIPPLE CARRY ADDER:
+![image](https://github.com/Pavithra-040404/VLSI-LAB-EXP-1/assets/161431611/28c50403-5b19-4aee-a272-ef10963ef80e)
 
 # RESULT:
+Thus the simulation and synthesis of Logic Gates,Adders and Subtractors using vivado has been sucessfully executed and verified .
 
 
