@@ -190,6 +190,7 @@ endmodule
 # LOGIC GATES:
 ![image](https://github.com/Pavithra-040404/VLSI-LAB-EXP-1/assets/161431611/3886dbdd-c408-47d4-a5d3-0eb51f7c4830
 
+
 # RESULT:
 
 
