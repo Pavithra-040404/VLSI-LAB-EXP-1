@@ -1,6 +1,8 @@
-# VLSI-LAB-EXPERIMENTS
+# EXP.NO:01
+# DATE :13/02/2024
+# SIMULATION AND IMPLEMENTATION OF LOGIC GATES,ADDERS AND SUBTRACTOR
 # AIM:
-To simulate and synthesis Logic Gates,Adders and Subtractor using vivado 2023.2.
+To simulate and synthesis Logic Gates,Adders and Subtractor using vivado 2023.2
 # APPARATUS REQUIRED:
 vivado 2023.2
 # PROCEDURE: 
@@ -17,35 +19,36 @@ STEP:5 Select the run simulation adn then run Behavioral Simulation in the Sourc
 STEP:6 Click the simulation to simulate the program and give the inputs and verify the outputs as per the truth table.
 
 STEP:7 compare the output with truth table.
-Logic Diagram :
 
-Logic Gates:
+# Logic Diagram :
+
+# Logic Gates:
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/ee17970c-3ac9-4603-881b-88e2825f41a4)
 
 
-Half Adder:
+# Half Adder:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/0e1ecb96-0c25-4556-832b-aeeedfdfe7b9)
 
 
-Full adder:
+# Full adder:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/9bb3964c-438f-469d-a3de-c1cca6f323fb)
 
 
-Half Subtractor:
+# Half Subtractor:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/731470b7-eb4e-49f8-8bb7-2994052a7184)
 
 
 
-Full Subtractor:
+# Full Subtractor:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/d66f874b-c1f2-44b3-a035-7149b56430c1)
 
 
 
-8 Bit Ripple Carry Adder
+# 8 Bit Ripple Carry Adder
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/7385a408-40a5-4203-8050-b72818622d79)
 
@@ -74,7 +77,7 @@ not(notgate,a);
 
 endmodule
 
-HALF ADDER:
+# HALF ADDER:
 module HalfAdder(a,b,sum,carry);
 
 input a,b;
@@ -87,7 +90,7 @@ and (carry,a,b);
 
 endmodule
 
-FULL ADDER:
+# FULL ADDER:
 module FA(a,b,cin,sum,cout);
 
 input a,b,cin;
@@ -108,7 +111,7 @@ or g5(cout,w2,w3);
 
 endmodule
 
-HALF SUBTRACTOR:
+# HALF SUBTRACTOR:
 module halfsubtractor(a,b,diff,borrow);
 
 input a,b;
@@ -121,7 +124,7 @@ and g2(borrow,~a,b);
 
 endmodule
 
-FULL SUBTRACTOR:
+# FULL SUBTRACTOR:
 module full_sub(a,b,bin,diff,borrow);
 
 input a,b,bin;
@@ -142,7 +145,7 @@ and g5(w3,~w1,bin);
 
 endmodule
 
-8 BIT RIPPLE CARRY ADDER:
+# 8 BIT RIPPLE CARRY ADDER:
 module fa(a,b,c,sum,carry);
 
 input a,b,c;
